@@ -1,4 +1,4 @@
-const nestedArray = [1, [2, 3], [4, [5, 6]]];
+const nested = [1, [2, 3], [4, [5, 6]]];
 
 const flattenArray = (arr) => {
   let flatted = [];
@@ -15,4 +15,4 @@ const flattenArray = (arr) => {
   return flatted;
 };
 
-console.log(flattenArray(nestedArray));
+console.log(flattenArray(nested));
